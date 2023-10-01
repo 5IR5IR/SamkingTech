@@ -42,7 +42,7 @@ body{
     padding: 40px;
     width: 100%;
     height: 880px;
-    background-image: url(images/yesfinally.png);
+    background-image: url(yesfinally.png);
     background-size: cover;
     opacity: 0.5;
     transition: 0.5s;
