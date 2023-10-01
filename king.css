@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&family=Onest:wght@600;900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.944);
+}
+
+/* navbar */
+.header{ 
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header nav a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Onest';
+}
+.header img{
+    width: 250px;
+}
+
+/* ------------- */
+/* banner */
+.banner{
+    padding: 40px;
+    width: 100%;
+    height: 880px;
+    background-image: url(images/yesfinally.png);
+    background-size: cover;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.banner:hover{
+    opacity: 1;
+}
+
+.big_words{
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-family: 'Gabarito';
+    font-weight: 900;
+}
+/*ABOUT US*/
+.info{
+    background-color: rgba(0, 0, 0, 0.327);
+    border-color: rgba(0, 0, 0, 0.464);
+    justify-content: right;
+    float: right;
+    align-items: center;
+    position: absolute;
+    border: 1px;
+    border-radius: 20px;
+    left: 45%;
+    top: 102%;
+    padding: 10px;
+    margin: 5px;
+    width: 50%;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-family: 'Gabarito';
+    font-weight: 100;
+}
+
+.aboutimage{
+    margin:10px;
+    padding: 5px;
+    justify-content: left;
+    width: 800px;
+    height: 800px;
+    display: flex;
+}
+/*------------*/
+/*SCROLL BAR*/
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+    height: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+  }
